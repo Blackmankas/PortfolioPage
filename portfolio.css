@@ -1,0 +1,92 @@
+header {
+  padding: 1em;
+  text-align: center;
+  color: white;
+  font-family: Georgia;
+}
+
+h1 {
+  font-size: 4em;
+  color: green;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+  font-weight: 700;
+}
+
+header h1, header h2 {
+  display: inline-block;
+}
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+  background-image: url("https://wmmauq.dm2304.livefilestore.com/y4m7gaLo4f9lcJFt4RXbHJX_0Snb3oIfi9xQRYIOEtjh6qrfwqChkkS0I87uUjjK3xaB_0-uRsdbisO7KJJWYoYR3MB_VRtJzFtKiT_PPDF95e8KDmdALsTIXy6P0y_RhEAHXUihMKNWFPGn9tv8AEBnXNDPWlqi5CwWSl1kVZcd-635Sa_5oSm-eDdZCrcu1WNG5xwMjRw1TeMN7grLciAbw?width=2575&height=1728&cropmode=none");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.jumbotron * {
+  position: relative;
+}
+
+.jumbotron img {
+  width: 20em;
+  border: 5px solid green;
+  border-radius: 50px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav p {
+  display: inline-block;
+  position: relative;
+  background-color: green;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0px 20px;
+}
+
+nav p a {
+  color: white;
+  text-decoration: none;
+}
+
+#about ul li li {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.module {
+  background: rgba(255, 255, 255, 0.65);
+  margin: 1em;
+}
+
+.icons {
+  text-align: center;
+}
+
+#projects img {
+  border: 4px inset;
+}
+
+#contact p {
+  text-align: center;
+}
